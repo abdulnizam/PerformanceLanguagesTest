@@ -48,6 +48,5 @@ int main() {
 		res = get_primes7(10000000);
 		printf("Found %d prime numbers.\n", (int)res.size());
 	}
-
 	return 0;
 }
