@@ -5,10 +5,6 @@
 
 using namespace std;
 
-// Some performance optimizations are commented out as an alternative implementation.
-// See the comments by Vinicius Miranda for more information:
-// http://blog.famzah.net/2010/07/01/cpp-vs-python-vs-perl-vs-php-performance-benchmark/#comment-5347
-
 void get_primes7(int n, vector<int> &res) {
 	if (n < 2) return;
 	if (n == 2) {
