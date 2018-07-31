@@ -4,7 +4,7 @@ def get_primes7(n)
   return [] if n  < 2
   return [2] if n == 2
 
-  # do only odd numbers starting at 3
+  # do only odd numbers starting at 3.
   s = 3.upto(n + 1).select(&:odd?)
 
   mroot = n ** 0.5
